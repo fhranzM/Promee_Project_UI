@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PROMEE_Signup.MainPage"
+             BackgroundColor="#FFB800">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                </Grid.RowDefinitions>
+
+                <BoxView Color="Black" Grid.Row="0" />
+
+             <Label
+                 Text="CREATE NEW ACCOUNT"
+                 HorizontalTextAlignment="Center"
+                 VerticalTextAlignment="Center"
+                 TextColor="White"
+                 FontAttributes="Bold"
+                 FontSize="35"
+                 Margin="50"/>
+
+            </Grid>
+
+            <Label
+                Text="USERNAME"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                Margin="15"
+                TextColor="#000000"
+                FontSize="20"/>
+
+            <Entry
+                Placeholder="Enter your username"
+                Margin="15"
+                PlaceholderColor="White"/>
+
+            <Label
+                Text="EMAIL"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                Margin="15"
+                TextColor="#000000"
+                FontSize="20"/>
+
+            <Entry
+                Placeholder="Enter your email"
+                Margin="15"
+                PlaceholderColor="White"/>
+
+            <Label
+                Text="PASSWORD"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                Margin="15"
+                TextColor="#000000"
+                FontSize="20"/>
+
+            <Entry
+                Placeholder="Enter your password"
+                Margin="15"
+                PlaceholderColor="White"/>
+
+            <Label
+                Text="CONFIRM PASSWORD"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                Margin="15"
+                TextColor="#000000"
+                FontSize="20"/>
+
+            <Entry
+                Placeholder="confirm password"
+                Margin="15"
+                PlaceholderColor="White"/>
+
+            <Button
+                Text="Sign up"
+                TextColor="White"
+                Margin="10"
+                Background="Black"/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+    
