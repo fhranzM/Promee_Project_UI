@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PROMEE_FrontMenu.MainPage"
+             BackgroundColor="#FFB800">
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+            
+
+            <Image
+                Source="promee_logo.png"
+                Margin="40"/>
+            
+
+            <Label
+                Text="Sign-in to continue"
+                FontSize="15"
+                Margin="15"
+                HorizontalTextAlignment="Start"
+                TextColor="#000000"/>
+            <Label
+                Text="USERNAME"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                Margin="15"
+                TextColor="#000000"
+                FontSize="20"/>
+
+            <Entry
+                Placeholder="Enter your username"
+                Margin="10"
+                PlaceholderColor="White"/>
+            
+            <Label
+                Text="PASSWORD"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Start"
+                Margin="15"
+                TextColor="Black"
+                FontSize="20"/>
+
+            <Entry
+                Placeholder="Enter your password"
+                Margin="10"
+                PlaceholderColor="White"/>
+
+            <Button
+                Text="Log In"
+                TextColor="White"
+                Margin="10"
+                Background="Black"/>
+
+            <Label
+                Text="Forgot Password?"
+                HorizontalTextAlignment="Center"
+                TextColor="Black"/>
+
+
+            <Label
+                Text="sign up"
+                HorizontalTextAlignment="Center"
+                TextColor="Black"/>
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
